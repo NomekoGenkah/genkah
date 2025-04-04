@@ -1,7 +1,6 @@
 from flask import Flask, request, send_file
 from flask_cors import CORS
 import os
-from werkzeug.utils import secure_filename
 from download import getAudio
 from search import getUrl
 
